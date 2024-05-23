@@ -1,6 +1,6 @@
 ---
 - project:
-    name: ^barathjk.*$
+    name: ^.*$
     default-branch: main
     gh_check:
       jobs: []
