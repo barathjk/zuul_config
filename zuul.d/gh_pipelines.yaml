@@ -121,5 +121,5 @@
     description: "Nightly run of jobs"
     trigger:
       timer:
-        cron:
+        time:
           - "*/5 * * * *"  # Runs at midnight every day
