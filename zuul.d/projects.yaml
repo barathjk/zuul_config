@@ -10,6 +10,8 @@
       jobs: []
     gh_tag:
       jobs: []
+    nightly:
+      jobs: []
 
 - project:
     name: zuul/zuul-jobs
@@ -28,5 +30,8 @@
       jobs:
         - noop
     gh_tag:
+      jobs:
+        - noop
+    nightly:
       jobs:
         - noop
