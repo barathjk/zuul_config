@@ -122,4 +122,4 @@
     manager: independent
     trigger:
       timer:
-        time: "0 0 * * *"  # Runs at midnight every day
+        time: "*/5 * * * *"  # Runs at midnight every day
