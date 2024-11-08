@@ -119,6 +119,7 @@
 - pipeline:
     name: nightly
     description: "Nightly run of jobs"
+    manager: independent
     trigger:
       timer:
         time: "0 0 * * *"  # Runs at midnight every day
