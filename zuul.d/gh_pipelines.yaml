@@ -121,5 +121,4 @@
     description: "Nightly run of jobs"
     trigger:
       timer:
-        time:
-          - "0 0 * * *"  # Runs at midnight every day
+        time: "0 0 * * *"  # Runs at midnight every day
