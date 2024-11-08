@@ -115,3 +115,11 @@
       githubzuulapp:
         - event: push
           ref: ^refs/tags/.*$
+
+- pipeline:
+    name: nightly
+    description: "Nightly run of jobs"
+    trigger:
+      timer:
+        time:
+          - "*/5 * * * *"  # Runs at midnight every day
